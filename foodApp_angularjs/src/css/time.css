@@ -1,0 +1,171 @@
+@import url("reset.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  font-size: 0.12rem; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url(../fonts/iconfont.eot) format("embedded-opentype");
+  src: url(../fonts/iconfont.ttf) format("truetype");
+  src: url(../fonts/iconfont.svg) format("svg");
+  src: url(../fonts/iconfont.woff) format("woff"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.clearfix::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  clear: both; }
+
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+/*------------------------header---------------------------------*/
+.header {
+  width: 100%;
+  height: 1.52rem;
+  background: #fff;
+  position: relative;
+  z-index: 9999;
+  border-bottom: 1px solid #ccc; }
+  .header span {
+    font-size: 0;
+    position: absolute;
+    left: .3rem;
+    line-height: 1.52rem; }
+    .header span:before {
+      font-family: "iconfont";
+      content: "\e833";
+      font-size: 0.44rem;
+      color: #343434; }
+  .header h1 {
+    width: 3.55rem;
+    height: .78rem;
+    border: 1px solid #E11717;
+    border-radius: 10px;
+    margin: .4rem auto;
+    font-size: 0;
+    overflow: hidden; }
+    .header h1 i {
+      font-size: .34rem;
+      color: #E11717;
+      font-style: normal;
+      line-height: .78rem;
+      display: inline-block;
+      width: 50%;
+      text-align: center; }
+    .header h1 .active {
+      background: #E11717;
+      color: #fff; }
+
+/*------------------------main---------------------------------*/
+.main {
+  width: 100%;
+  -webkit-box-flex: 1;
+  background: #fff;
+  padding-left: .33rem;
+  background: #F5F5F5; }
+  .main .scroller dl {
+    width: 100%;
+    height: 2.74rem;
+    background: #fff;
+    margin-top: .46rem; }
+    .main .scroller dl dt {
+      width: 1.8rem;
+      height: 1.8rem;
+      border-radius: 50%;
+      background: #FFCA10;
+      text-align: center;
+      line-height: 1.8rem;
+      float: left; }
+      .main .scroller dl dt:before {
+        font-family: "iconfont";
+        content: "\e815";
+        font-size: 0.9rem;
+        color: #fff; }
+    .main .scroller dl dd {
+      padding-top: .25rem;
+      padding-left: 2.13rem; }
+      .main .scroller dl dd p:nth-of-type(1) {
+        font-size: .46rem; }
+        .main .scroller dl dd p:nth-of-type(1) span {
+          color: #ccc;
+          font-size: .4rem; }
+      .main .scroller dl dd p:nth-of-type(2) {
+        padding-top: .4rem;
+        font-size: .4rem;
+        color: #666; }
+  .main .scroller section {
+    background: #fff;
+    padding: .45rem 0 0 .27rem;
+    margin-top: .3rem;
+    border-bottom: 1px solid #ccc; }
+    .main .scroller section p:nth-of-type(1) {
+      background: url(../image/65.jpg) no-repeat left center;
+      background-size: contain;
+      font-size: .36rem;
+      height: .82rem;
+      line-height: .82rem;
+      padding-left: 1.14rem; }
+    .main .scroller section p:nth-of-type(2) {
+      font-size: .46rem;
+      height: 1.4rem;
+      line-height: 1.4rem; }
+    .main .scroller section img {
+      width: 4.51rem;
+      height: 4.51rem; }
+    .main .scroller section p:nth-of-type(3) {
+      width: 100%;
+      padding-top: .43rem;
+      font-size: .34rem;
+      color: #666;
+      padding-bottom: .17rem;
+      position: relative; }
+      .main .scroller section p:nth-of-type(3) span {
+        position: absolute;
+        width: .86rem;
+        height: .44rem; }
+        .main .scroller section p:nth-of-type(3) span:nth-of-type(2) {
+          right: .33rem;
+          background: url(../image/67.jpg) no-repeat left center;
+          background-size: contain;
+          padding-left: .48rem;
+          font-size: .34rem; }
+        .main .scroller section p:nth-of-type(3) span:nth-of-type(1) {
+          right: 1.1rem;
+          background: url(../image/68.jpg) no-repeat left center;
+          background-size: contain;
+          padding-left: .48rem;
+          font-size: .34rem; }
+  .main .pos {
+    width: 100%;
+    height: 1.5rem;
+    background: red;
+    opacity: 0.6;
+    position: fixed;
+    bottom: 0;
+    text-align: center; }
+    .main .pos a {
+      font-size: .48rem;
+      color: #fff;
+      line-height: 1.5rem; }
+
+/*# sourceMappingURL=time.css.map */

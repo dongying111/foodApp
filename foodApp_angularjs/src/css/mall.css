@@ -1,0 +1,283 @@
+@import url("reset.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  font-size: 0.12rem; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url(../fonts/iconfont.eot) format("embedded-opentype");
+  src: url(../fonts/iconfont.ttf) format("truetype");
+  src: url(../fonts/iconfont.svg) format("svg");
+  src: url(../fonts/iconfont.woff) format("woff"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+ /*a:before{
+			font-family:"iconfont";
+			content:"\e625";
+			font-size:0.23rem;
+			color:#fff;
+		}*/
+.clearfix::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  clear: both; }
+
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+/*------------------------header2---------------------------------*/
+.content {
+  width: 100%;
+  -webkit-box-flex: 1;
+  position: relative;
+  display:-webkit-box;
+  -webkit-box-orient: vertical;
+  background:#fff;
+
+}
+.header2 {
+  width: 100%;
+  height: 2rem;
+  background: #fff;
+  position: relative;
+  z-index: 9999; }
+  .header2 a:nth-of-type(1) {
+    position: absolute;
+    width: .73rem;
+    height: .51rem;
+    background: url(../image/18.jpg) no-repeat;
+    background-size: contain;
+    left: .3rem;
+    top: 50%;
+    margin-top: -.25rem; }
+  .header2 p {
+    width: 6.28rem;
+    height: .88rem;
+    margin-top: .6rem;
+    margin-left: 1.32rem;
+    background: #F5F5F5;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative; }
+    .header2 p input[type="text"] {
+      border: none;
+      width: 100%;
+      height: 100%;
+      background: #ececec;
+      padding-left: 1rem;
+      font-size: .4rem; }
+    .header2 p span {
+      position: absolute;
+      left: .33rem;
+      top: .15rem;
+      font-size: 0; }
+    .header2 p span:before {
+      font-family: "iconfont";
+      content: "\e797";
+      font-size: 0.5rem;
+      color: #999999; }
+  .header2 a:nth-of-type(2) {
+    position: absolute;
+    width: .74rem;
+    height: .60rem;
+    background: url(../image/19.jpg) no-repeat;
+    background-size: contain;
+    left: 8.18rem;
+    top: 50%;
+    margin-top: -.3rem; }
+  .header2 a:nth-of-type(3) {
+    position: absolute;
+    width: .71rem;
+    height: .51rem;
+    background: url(../image/20.jpg) no-repeat;
+    background-size: contain;
+    left: 9.65rem;
+    top: 50%;
+    margin-top: -.25rem; }
+
+/*------------------------main---------------------------------*/
+.main {
+  width: 100%;
+  -webkit-box-flex: 1;
+  position: relative; }
+/*------------------------mall---------------------------------*/
+#main {
+  background: #F8F8F8; }
+  #main .swiper-container {
+    width: 100%;
+    height: 3.74rem; }
+    #main .swiper-container ul {
+      width: 300%;
+      height: 3.74rem;
+      font-size: 0;
+      display: -webkit-box; }
+      #main .swiper-container ul li {
+        width: 33.33%;
+        height: 100%; }
+        #main .swiper-container ul li img {
+          width: 10.8rem;
+          height: 3.74rem;
+          float: left; }
+  #main .m_list {
+    width: 100%;
+    background: #fff;
+    height: 1.98rem;
+    margin-top: .72rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 0;
+    padding-top: .1rem;}
+    #main .m_list a {
+      display: inline-block;
+      text-align: center;
+      font-size: .41rem;
+      width: 16.6%;
+      height: 100%;
+      color: #333333; }
+      #main .m_list a small {
+        padding-top: .03rem;
+        width: .61rem;
+        height: .57rem;
+        background: url(../image/22.jpg) no-repeat;
+        background-size: contain;
+        display: inline-block;
+        margin-bottom: .28rem; }
+    #main .m_list a:nth-of-type(2) small {
+      width: .61rem;
+      height: .67rem;
+      background: url(../image/23.jpg) no-repeat;
+      background-size: contain;
+      display: inline-block; }
+    #main .m_list a:nth-of-type(3) small {
+      width: .75rem;
+      height: .57rem;
+      background: url(../image/24.jpg) no-repeat;
+      background-size: contain;
+      display: inline-block; }
+    #main .m_list a:nth-of-type(4) small {
+      width: .42rem;
+      height: .62rem;
+      background: url(../image/25.jpg) no-repeat;
+      background-size: contain;
+      display: inline-block; }
+    #main .m_list a:nth-of-type(5) small {
+      width: .64rem;
+      height: .53rem;
+      background: url(../image/26.jpg) no-repeat;
+      background-size: contain;
+      display: inline-block; }
+    #main .m_list a:nth-of-type(6) small {
+      width: .64rem;
+      height: .53rem;
+      background: url(../image/27.jpg) no-repeat;
+      background-size: contain;
+      display: inline-block; }
+  #main .good {
+    width: 100%;
+    padding: 0.6rem .3rem; }
+    #main .good p {
+      width: 100%;
+      height: .54rem;
+      border-left: 6px solid #FF4C38;
+      font-size: .5rem;
+      padding-left: .32rem; }
+      #main .good p a {
+        padding-left: 5.27rem;
+        color: #FF4C38;
+        background: url(../image/31.jpg) no-repeat right center;
+        background-size: contain;
+        padding-right: .37rem;
+        font-size: .4rem; }
+    #main .good dl {
+      width: 3.25rem;
+      margin-top: .58rem;
+      display: inline-block;
+      height: 5.35rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-right: .1rem; }
+      #main .good dl dt {
+        width: 3.22rem;
+        height: 3.22rem; }
+        #main .good dl dt img {
+          width: 3.22rem;
+          height: 3.22rem; }
+      #main .good dl:nth-of-type(3) {
+        margin-right: 0; }
+      #main .good dl:nth-of-type(6) {
+        margin-right: 0; }
+      #main .good dl dd {
+        padding-left: .19rem;
+        padding-top: .29rem; }
+        #main .good dl dd h3 {
+          font-size: .33rem; }
+        #main .good dl dd h4 {
+          font-size: .3rem;
+          color: #FF4C38;
+          padding-top: .28rem; }
+          #main .good dl dd h4 span {
+            padding-left: .42rem;
+            font-size: .25rem; }
+
+/*------------------------footer1---------------------------------*/
+.footer {
+  width: 100%;
+  height: 1.49rem;
+  border-top: 1px solid #ccc;
+  background: #F5F5F5;
+  font-size: 0;
+  position: relative;
+  z-index: 9999; }
+  .footer a {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: .26rem;
+    color: #AAAAAA;
+    padding-top: .2rem; }
+    .footer a small:before {
+      font-family: "iconfont";
+      content: "\e7ab";
+      font-size: 0.6rem;
+      color: #868686; }
+  .footer .active {
+    color: #FF4C38; }
+    .footer .active small:before {
+      color: #FF4C38; }
+  .footer a:nth-of-type(2) small:before {
+    font-family: "iconfont";
+    content: "\e776";
+    font-size: 0.6rem; }
+  .footer a:nth-of-type(3) small:before {
+    font-family: "iconfont";
+    content: "\e81e";
+    font-size: 0.6rem; }
+  .footer a:nth-of-type(4) small:before {
+    font-family: "iconfont";
+    content: "\e7e6";
+    font-size: 0.6rem; }
+  .footer a:nth-of-type(5) small:before {
+    font-family: "iconfont";
+    content: "\e792";
+    font-size: 0.6rem; }
+
+/*# sourceMappingURL=mall.css.map */

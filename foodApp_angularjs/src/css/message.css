@@ -1,0 +1,139 @@
+@import url("reset.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  font-size: 0.12rem; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url(../fonts/iconfont.eot) format("embedded-opentype");
+  src: url(../fonts/iconfont.ttf) format("truetype");
+  src: url(../fonts/iconfont.svg) format("svg");
+  src: url(../fonts/iconfont.woff) format("woff"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.clearfix::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  clear: both; }
+
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+/*------------------------header---------------------------------*/
+.header {
+  width: 100%;
+  height: 1.49rem;
+  position: relative;
+  z-index: 9999;
+  border-bottom: 1px solid #ccc; }
+  .header span {
+    font-size: 0;
+    position: absolute;
+    left: .3rem;
+    line-height: 1.5rem; }
+    .header span:before {
+      font-family: "iconfont";
+      content: "\e833";
+      font-size: 0.46rem;
+      color: #FF4B3A; }
+  .header h1 {
+    width: 100%;
+    text-align: center;
+    line-height: 1.49rem;
+    font-size: .46rem; }
+  .header i {
+    font-style: normal;
+    position: absolute;
+    right: .43rem;
+    top: .59rem;
+    font-size: .4rem; }
+
+/*------------------------main---------------------------------*/
+.main {
+  width: 100%;
+  -webkit-box-flex: 1;
+  background: #fff;
+  position: relative; }
+  .main .scroller ul {
+    width: 100%;
+    padding-left: .25rem; }
+    .main .scroller ul li {
+      width: 100%;
+      height: 2.24rem;
+      border-bottom: 1px solid #ccc; }
+      .main .scroller ul li a {
+        font-size: .42rem;
+        line-height: 2.24rem;
+        color: #000; }
+        .main .scroller ul li a small {
+          display: inline-block;
+          width: 1.34rem;
+          height: 1.34rem;
+          background: #21CEA0;
+          border-radius: 50%;
+          line-height: 1.34rem;
+          margin-top: .45rem;
+          text-align: center;
+          margin-right: .32rem; }
+          .main .scroller ul li a small:before {
+            font-family: "iconfont";
+            content: "\e79c";
+            font-size: .55rem;
+            color: #fff; }
+      .main .scroller ul li:after {
+        font-family: "iconfont";
+        content: "\e78b";
+        font-size: 0.3rem;
+        color: #ACACAC;
+        padding-left: 7.37rem; }
+      .main .scroller ul li:last-child:after {
+        padding-left: 6.5rem; }
+    .main .scroller ul li:nth-of-type(2) a small {
+      background: #419CEB; }
+      .main .scroller ul li:nth-of-type(2) a small:before {
+        font-family: "iconfont";
+        content: "\e7c2";
+        font-size: .55rem;
+        color: #fff; }
+    .main .scroller ul li:nth-of-type(3) a small {
+      background: #FFB60F; }
+      .main .scroller ul li:nth-of-type(3) a small:before {
+        font-family: "iconfont";
+        content: "\e7dd";
+        font-size: .55rem;
+        color: #fff; }
+    .main .scroller ul li:nth-of-type(4) a small {
+      background: #F9533D; }
+      .main .scroller ul li:nth-of-type(4) a small:before {
+        font-family: "iconfont";
+        content: "\e790";
+        font-size: .55rem;
+        color: #fff; }
+    .main .scroller ul li:nth-of-type(5) a small {
+      background: #81D63A; }
+      .main .scroller ul li:nth-of-type(5) a small:before {
+        font-family: "iconfont";
+        content: "\e7b3";
+        font-size: .55rem;
+        color: #fff; }
+
+/*# sourceMappingURL=message.css.map */

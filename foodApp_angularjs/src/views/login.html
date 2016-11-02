@@ -1,0 +1,37 @@
+
+		<header class="header">
+			<span class="close" ng-click="sub()">关闭</span>
+			<h1>登录</h1>
+			<a href="./zhuce.html">注册</a>
+		</header>
+		<main class="main" id="main">
+			<div class="iscroll">
+				<div class="title">
+					<h2>美食之路</h2>
+					<h1>爱分享 吃货的幸福</h1>
+				</div>
+				<form class="forms">
+					<p>
+						<input type="text" placeholder="手机号码/邮箱" id="txt" ng-model='username'>
+						<span class="red" id="show">请输入手机或邮箱</span>
+					</p>
+					<p>
+						<input type="password" placeholder="密码(6-18个字符)" id="pass" ng-model='password'>
+						<span class="red" id="show2">密码不对</span>
+					</p>
+					<input type="button" id="btn" ng-click="sub2()" value="登录"/>
+				</form>
+
+				<div class="side">
+					<input type="checkbox" id="che">
+					<label for="che">
+					</label>
+					<span>下次自动登录</span>
+					<a href="#">忘记密码</a>
+				</div>
+			</div>
+
+		</main>
+
+
+

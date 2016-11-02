@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" ng-app='app'>
+<head>
+	<meta charset="UTF-8">
+	<!-- 宽度是设备宽度，初始缩放比例为一，用户最大最小缩放比例为一，不允许用户手动缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<!-- 禁止ios设备将数字作为拨号连接，邮箱自动发送，点击地图跳转 -->
+	<meta name="format-detection" content="telephone=no,email=no，adress=no">
+	<!-- 强制全屏显示 -->
+	<meta name="full-screen" content="yes">
+	<!-- 开启对webapp的支持 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- web app 应用下状态条（屏幕顶部条）的颜色,默认值为 default（白色） -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<!-- 禁止浏览器从的缓存中访问页面内容 -->
+	<meta http-equiv="Pragma" content="no-cache">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" ng-href="{{cssUrl}}" add-url>
+	<title>Document</title>
+</head>
+<body>
+	<div ui-view class="wrap" re-fresh></div>
+</body>
+<script src='angular/angular.min.js'></script>
+<script src='angular-ui-router/release/angular-ui-router.min.js'></script>
+<script src='oclazyload/dist/ocLazyLoad.min.js'></script>
+<script src='js/zepto.min.js'></script>
+<script src='js/swiper.min.js'></script>
+<script src='js/iscroll4.js'></script>
+<script src='js/app.js'></script>
+<script src='js/config.js'></script>
+<script src='js/controller.js'></script>
+<script src='./api.service.js'></script>
+<script src='js/directive.js'></script>
+<script src='js/index.js'></script>
+<script src='js/idangerous.swiper.min.js'></script>
+<script ng-src='{{jsUrl}}' add-url></script>
+<script type="text/javascript">
+
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/10.8+'px';
+
+
+</script>
+</html>

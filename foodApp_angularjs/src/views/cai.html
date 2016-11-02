@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="../css/cai.css">
+<div class="wrap" ng-controller='data'>
+	<header class="header">
+		<span id="back" ui-sref='index.find'>返回</span>
+		<h1>当季食材</h1>
+	</header>
+	<div class="main" id="main">
+		<div class="scroller" ng-controller='data'>
+			<dl ng-repeat='x in data'>
+				<dt><img src="{{x.img}}" alt=""></dt>
+				<dd>
+					<p>{{x.Name}}</p>
+					<p><span>{{x.active}}</span><span>{{x.activet}}</span></p>
+					<p>{{x.good}}</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<footer class="footer">
+		<p>
+			<a href="" class="active">蔬菜</a>
+			<a href="">水果</a>
+			<a href="">肉类</a>
+			<a href="">五谷</a>
+		</p>
+	</footer>
+</div>
+<script type="text/javascript">
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/10.8+'px';
+</script>
+<script src="js/zepto.min.js"></script>
+<script src="js/iscroll5.js"></script>
+<script src="js/cai.js"></script>

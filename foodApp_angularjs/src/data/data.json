@@ -1,0 +1,9 @@
+{
+	"data":
+		[
+			{ "username":"zhangsan" , "password":"11"},
+			{ "username":"lisi" , "password":"22"},
+			{ "username":"wangwu" , "password":"33"}
+
+		]
+}

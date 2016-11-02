@@ -1,0 +1,160 @@
+@import url("reset.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  font-size: 0.12rem; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url(../fonts/iconfont.eot) format("embedded-opentype");
+  src: url(../fonts/iconfont.ttf) format("truetype");
+  src: url(../fonts/iconfont.svg) format("svg");
+  src: url(../fonts/iconfont.woff) format("woff"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.clearfix::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  clear: both; }
+
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+/*------------------------header---------------------------------*/
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #EFF3F2;
+  position: relative;
+  z-index: 9999; }
+  .header span {
+    font-size: 0;
+    position: absolute;
+    left: .3rem;
+    line-height: 1.2rem; }
+    .header span:before {
+      font-family: "iconfont";
+      content: "\e833";
+      font-size: 0.44rem;
+      color: #343434; }
+  .header h1 {
+    font-size: .46rem;
+    text-align: center;
+    line-height: 1.2rem;
+    color: #343434; }
+
+.header1 {
+  width: 100%;
+  height: 1rem;
+  background: #EFF3F2;
+  position: relative;
+  z-index: 9999; }
+  .header1 span {
+    font-size: 0;
+    position: absolute;
+    left: .3rem;
+    line-height: 1rem; }
+    .header1 span:before {
+      font-family: "iconfont";
+      content: "\e833";
+      font-size: 0.24rem;
+      color: #343434; }
+  .header1 h1 {
+    width: 5.78rem;
+    height: .63rem;
+    background: #fff;
+    margin-left: .7rem;
+    margin-top: .21rem; }
+    .header1 h1 input[type="text"] {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: #fff;
+      font-size: .28rem;
+      text-align: center;
+      line-height: .63rem; }
+  .header1 a {
+    color: #FF4B3A;
+    position: absolute;
+    right: .32rem;
+    top: .38rem;
+    font-size: .3rem; }
+
+/*------------------------main---------------------------------*/
+.main {
+  width: 100%;
+  -webkit-box-flex: 1;
+  background: #fff;
+  position: relative; }
+  .main .scroller ul {
+    width: 100%;
+    height: .88rem; }
+    .main .scroller ul li {
+      width: 25%;
+      height: 100%;
+      line-height: .88rem;
+      float: left;
+      text-align: center;
+      font-size: .31rem; }
+    .main .scroller ul .active {
+      border-bottom: 3px solid #FF4C38;
+      color: #FF4C38; }
+  .main .scroller .ul_fav li {
+    width: 33.33%; }
+  .main .scroller img {
+    position: absolute;
+    width: 3.78rem;
+    height: 1.63rem;
+    top: 3.87rem;
+    left: 50%;
+    margin-left: -1.89rem; }
+  .main .scroller p {
+    width: 100%;
+    text-align: center;
+    padding-top: 5.05rem;
+    font-size: .24rem; }
+
+/*------------------------lead---------------------------------*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.swiper-wrapper {
+  display: -webkit-box;
+  width: 700%;
+  height: 100%; }
+
+.swiper-slide {
+  width:14%;
+  height: 100%; }
+  .swiper-slide img {
+    width: 100%;
+    height: 100%; }
+
+.start {
+  width: 4rem;
+  height: .82rem;
+  position: absolute;
+  left: 3.5rem;
+  bottom: 2.2rem; }
+
+/*# sourceMappingURL=upload.css.map */
